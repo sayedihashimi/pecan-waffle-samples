@@ -11,4 +11,9 @@
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
   </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="Output\ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="File" Path="PecanWaffle.dll" AssemblyName="PecanWaffle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" AssemblyName="|%CurrentProject%;AssemblyName|" />
+  </Assets>  
 </PackageManifest>
