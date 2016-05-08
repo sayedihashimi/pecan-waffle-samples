@@ -20,13 +20,13 @@
     <Assembly>PecanWaffleSamplesVs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
     <FullClassName>PecanWaffleSamplesVs.SolutionWizard</FullClassName>
   </WizardExtension>
-
   <TemplateContent>
     <Project TargetFileName="$safeprojectname$.csproj" File="VsTemplateProj.csproj" ReplaceParameters="true" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005"></Project>
     <CustomParameters xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
       <CustomParameter Name="TemplateName" Value="ContosoZebra" />
       <CustomParameter Name="PecanWaffleInstallBranch" Value="dev" />
-      <CustomParameter Name="Item" Value="Item" />
+      <CustomParameter Name="ExtensionId" Value="PecanWaffleSamplesVs.ecdc6243-592e-499f-9867-458f2fa4a056"/>
+      <CustomParameter Name="Item" Value="Item" />      
     </CustomParameters>
   </TemplateContent>
 </VSTemplate>
