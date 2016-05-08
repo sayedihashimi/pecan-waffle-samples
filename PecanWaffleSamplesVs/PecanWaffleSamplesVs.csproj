@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\pecan-waffle-vs.0.0.16-beta\build\pecan-waffle-vs.props" Condition="Exists('..\packages\pecan-waffle-vs.0.0.16-beta\build\pecan-waffle-vs.props')" />
+  <Import Project="..\packages\pecan-waffle-vs.0.0.17-beta\build\pecan-waffle-vs.props" Condition="Exists('..\packages\pecan-waffle-vs.0.0.17-beta\build\pecan-waffle-vs.props')" />
   <PropertyGroup>
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -66,7 +66,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="PecanWaffle, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\pecan-waffle.0.0.16-beta\lib\PecanWaffle.dll</HintPath>
+      <HintPath>..\packages\pecan-waffle.0.0.17-beta\lib\PecanWaffle.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -105,10 +105,10 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\pecan-waffle-vs.0.0.16-beta\build\pecan-waffle-vs.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\pecan-waffle-vs.0.0.16-beta\build\pecan-waffle-vs.props'))" />
-    <Error Condition="!Exists('..\packages\pecan-waffle-vs.0.0.16-beta\build\pecan-waffle-vs.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\pecan-waffle-vs.0.0.16-beta\build\pecan-waffle-vs.targets'))" />
+    <Error Condition="!Exists('..\packages\pecan-waffle-vs.0.0.17-beta\build\pecan-waffle-vs.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\pecan-waffle-vs.0.0.17-beta\build\pecan-waffle-vs.props'))" />
+    <Error Condition="!Exists('..\packages\pecan-waffle-vs.0.0.17-beta\build\pecan-waffle-vs.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\pecan-waffle-vs.0.0.17-beta\build\pecan-waffle-vs.targets'))" />
   </Target>
-  <Import Project="..\packages\pecan-waffle-vs.0.0.16-beta\build\pecan-waffle-vs.targets" Condition="Exists('..\packages\pecan-waffle-vs.0.0.16-beta\build\pecan-waffle-vs.targets')" />
+  <Import Project="..\packages\pecan-waffle-vs.0.0.17-beta\build\pecan-waffle-vs.targets" Condition="Exists('..\packages\pecan-waffle-vs.0.0.17-beta\build\pecan-waffle-vs.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
