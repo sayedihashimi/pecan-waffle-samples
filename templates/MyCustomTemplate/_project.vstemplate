@@ -18,7 +18,7 @@
   </TemplateData>
 <WizardExtension>
     <Assembly>PecanWaffleSamplesVs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
-    <FullClassName>PecanWaffleSamplesVs.SolutionWizard</FullClassName>
+    <FullClassName>PecanWaffleSamplesVs.NewWizard</FullClassName>
   </WizardExtension>
   <TemplateContent>
     <Project TargetFileName="$safeprojectname$.csproj" File="VsTemplateProj.csproj" ReplaceParameters="true" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005"></Project>
