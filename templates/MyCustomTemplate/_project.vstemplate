@@ -16,9 +16,9 @@
     <!-- Indicates how many parent folders this item template should appear in -->
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
   </TemplateData>
-<WizardExtension>
-    <Assembly>PecanWaffleSamplesVs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
-    <FullClassName>PecanWaffleSamplesVs.SolutionWizard</FullClassName>
+  <WizardExtension>
+    <Assembly>PecanWaffle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
+    <FullClassName>PecanWaffle.PecanWizard</FullClassName>
   </WizardExtension>
   <TemplateContent>
     <Project TargetFileName="$safeprojectname$.csproj" File="VsTemplateProj.csproj" ReplaceParameters="true" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005"></Project>

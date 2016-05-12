@@ -48,9 +48,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SolutionWizard.cs">
-      <SubType>Component</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -72,6 +69,10 @@
       <HintPath>..\packages\pecan-waffle.0.0.18-beta\lib\PecanWaffle.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <!--<Reference Include="PecanWaffle, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\pecan-waffle\vs-src\PecanWaffle\bin\Debug\PecanWaffle.dll</HintPath>
+    </Reference>-->
     <Reference Include="System" />
     <Reference Include="System.IO.Compression" />
     <Reference Include="System.IO.Compression.FileSystem" />

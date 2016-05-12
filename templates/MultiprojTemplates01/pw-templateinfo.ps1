@@ -22,6 +22,35 @@ $templateInfo | replace (
     ('6154DCBD-66FD-4FDA-98F5-AB85D0C13A99', {"$ProjectId"}, {[System.Guid]::NewGuid()},@("*.*proj")),
     ('FC2E39BF-7F1F-471E-895A-C9A7CAC2E54A', {"$ProjectId"}, {[System.Guid]::NewGuid()},@("*.*proj")),
     ('66095F59-BE7A-48D8-8643-FFF894E66B4F', {"$ProjectId"}, {[System.Guid]::NewGuid()},@("*.*proj"))
+
+    # The following shows how you can use template parameters from Visual Studio
+    # default template parameters ref https://msdn.microsoft.com/en-us/library/eehb4faa.aspx
+    <#
+    ('$clrversion$',{$p['$clrversion$']},$null),
+    ('$itemname$',{$p['$itemname$']},$null),
+    ('$machinename$',{$p['$machinename$']},$null),
+    ('$projectname$',{$p['$projectname$']},$null),
+    ('$registeredorganization$',{$p['$registeredorganization$']},$null),
+    ('$rootnamespace$',{$p['$rootnamespace$']},$null),
+    ('$safeitemname$',{$p['$safeitemname$']},$null),
+    ('$safeprojectname$',{$p['$safeprojectname$']},$null),
+    ('$time$',{$p['$time$']},$null),
+    ('$SpecificSolutionName$',{$p['$SpecificSolutionName$']},$null),
+    ('$userdomain$',{$p['$userdomain$']},$null),
+    ('$username$',{$p['$username$']},$null),
+    ('$webnamespace$',{$p['$webnamespace$']},$null),
+    ('$year$',{$p['$year$']},$null),
+    ('$guid1$',{$p['$guid1$']},$null),
+    ('$guid2$',{$p['$guid2$']},$null),
+    ('$guid3$',{$p['$guid3$']},$null),
+    ('$guid4$',{$p['$guid4$']},$null),
+    ('$guid5$',{$p['$guid5$']},$null),
+    ('$guid6$',{$p['$guid6$']},$null),
+    ('$guid7$',{$p['$guid7$']},$null),
+    ('$guid8$',{$p['$guid8$']},$null),
+    ('$guid9$',{$p['$guid9$']},$null),
+    ('$guid10$',{$p['$guid10$']},$null)
+    #>
 )
 
 # when the template is run any filename with the given string will be updated
